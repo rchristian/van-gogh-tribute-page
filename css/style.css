@@ -1,0 +1,159 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background:linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url(https://drive.google.com/uc?export=download&id=1sE-TnwPEr0BleijGeCPDauzPJvjrFMouUA) center center fixed no-repeat;
+	background-size: 100% auto;
+}
+
+.jumbotron {
+	background-color:none;
+	background:none;
+	height: auto;
+}
+
+/*.v-align {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+.page-header {
+	margin-top: 230px;
+}
+.jumbotron h1 {
+	color: white;
+	font-weight: 100;
+	letter-spacing: 25px;
+}
+
+/*.bio-tabs {
+	margin: 20px;
+  width: 80%;
+}*/
+
+.bio-tabs .state {
+  position: absolute;
+  left: -10000px;
+}
+
+/*.bio-tabs .tabs-flex {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+} */
+
+.bio-tabs .tabs-flex .tab {
+	flex-grow: 1;
+  max-height: 40px;
+}
+
+.bio-tabs .tabs-flex .panel {
+  padding: 20px;
+  min-height: 300px;
+  display: none;
+  width: 100%;
+	flex-basis: auto;
+}
+
+.bio-tabs .tab {
+  vertical-align: top;
+  cursor: pointer;
+	padding-right: 20px;
+	padding-left: 14px;
+	border-right: #fff 1px solid;
+	color: white;
+	display: inline;
+	font-weight: 100;
+	font-size: 25px;
+}
+
+.panel > p {
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.thumbnail {
+	border: none;
+}
+
+#more-tab-label {
+	border: none;
+}
+
+#more-tab-panel ul{
+	list-style-type: circle;
+}
+
+#more-tab-panel a {
+	text-decoration: underline;
+	color: #555;
+}
+
+#life-tab:checked ~ .tabs #life-tab-label,
+#legacy-tab:checked ~ .tabs #legacy-tab-label,
+#works-tab:checked ~ .tabs #works-tab-label,
+#more-tab:checked ~ .tabs #more-tab-label {
+	text-decoration: underline;
+  cursor: default;
+}
+
+#life-tab:checked ~ .tabs #life-tab-panel,
+#legacy-tab:checked ~ .tabs #legacy-tab-panel,
+#works-tab:checked ~ .tabs #works-tab-panel,
+#more-tab:checked ~ .tabs #more-tab-panel {
+	display: block;
+	margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .tabs-felx {
+		flex-direction: column;
+  }
+  .tabs-felx #life-tab-label {
+		order: 1;
+  }
+  .tabs-felx #legacy-tab-label {
+    order: 3;
+  }
+  .tabs-felx #works-tab-label {
+    order: 5;
+  }
+  .tabs-felx #more-tab-label {
+    order: 7;
+  }
+  .tabs-felx #life-tab-panel {
+    order: 2;
+  }
+  .tabs-felxs #more-tab-panel {
+    order: 4;
+  }
+  .tabs-felx #legacy-tab-panel {
+		order: 6;
+  }
+  .tabs-felx #more-tab-panel {
+		order: 8;
+  }
+}
+
+@media only screen and (max-width : 1200px){
+	body{
+		background:linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url(https://drive.google.com/uc?export=download&id=1d4cKVsjQikfNmnryyDiHo3SRmc2-b8Fnhw) center center fixed no-repeat;
+	}
+}
+
+@media only screen and (max-width : 992px) {
+		body{
+		background:linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url(https://drive.google.com/uc?export=download&id=1AEfdh_QmLiSTDetOGrKDSGuOiXrusZBJ2g) center center fixed no-repeat;
+	}
+}
+
+@media only screen and (max-width : 768px) {
+		body{
+		background:linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url(https://drive.google.com/uc?export=download&id=14hQV1fUJX1GuCeDciVRFxG7RfjSClW4JrQ) center center fixed no-repeat;
+	}
+}
+ 
+@media only screen and (max-width : 480px) {
+		body{
+		background:linear-gradient( rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20) ), url(https://drive.google.com/uc?export=view&id=0Bww7VdulLIdUNVc4dWpnNmpRQWc) center center fixed no-repeat;
+	}
+}
